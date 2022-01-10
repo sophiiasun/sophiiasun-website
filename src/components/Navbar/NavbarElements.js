@@ -8,7 +8,7 @@ export const navStyles = makeStyles((theme) => ({
 }))
 
 export const Nav = styled.nav`
-  height: 8vh; width: 100%;
+  height:8vh; width:100%;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -21,26 +21,23 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: black; 
+  color: var(--col0); 
   text-decoration: none; 
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-size: 2.5vh; 
-  padding: 25px;
+  font-size: 2vh; 
+  padding:0.5vw 0.7vw;
   cursor: pointer;
-  border: 0.4vmin solid var(--col0); border-radius: 2vmin;  
-  height: 3vw;
+  border: 0.15vw solid var(--col0); border-radius: 1.5vmin;  
+  height: auto;
   width: auto; 
-  margin: auto auto; 
-  background: -webkit-linear-gradient(0deg, transparent 50%, var(--col0) 50%); 
+  margin: auto; 
   background-size: 100vw 100vw; 
-  transition: 0.2s; 
+  transition: 0.5s; 
   justify-content: center;  
-  &:hover {
-    background-position: 50vw 0; 
-    color: var(--col1); 
-  }
+  text-transform:uppercase;
+  &:hover { background-position:50vw 0; color:var(--col1); background:var(--col0) }
 `;
 
 
