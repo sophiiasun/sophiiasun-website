@@ -6,7 +6,7 @@ import { Chatify, Medicapp, Tetros, Minesweeper } from './PortfolioElements'
 const Portfolio = () => {
 	return (
 		<div>
-			<button className="resumeButton"><a href="https://bit.ly/3ll8fpY">View Resume</a></button>
+			{/* <button className="resumeButton"><a href="https://bit.ly/3ll8fpY">View Resume</a></button> */}
 			<Card
 				header='Chatify'
 				body={Chatify}
@@ -29,6 +29,7 @@ const Portfolio = () => {
 				date='04/16/2021'
 				imgLink='./Personal-Site/ProjectImg/Minesweeper.png'
 				github='https://github.com/sophiiasun/Minesweeper'
+
 			/>
 
 		</div>
