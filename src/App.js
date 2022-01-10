@@ -4,10 +4,10 @@ import Button from './components/Button'
 import {useState} from 'react' 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-import About from './Pages/About'; 
+import About from './Pages/About/About'; 
 import Home from './Pages/Home'; 
 import Contact from './Pages/Contact';  
-import Portfolio from './Pages/Portfolio'; 
+import Portfolio from './Pages/Portfolio/Portfolio'; 
 
 import ParticlesBg from 'particles-bg'
 
@@ -19,7 +19,7 @@ function App() {
         <Navbar /> 
         <Switch>
           <Route path = '/' exact component = {Home}/>
-          <Route path = '/about' component = {About}/>
+          <Route path = '/About' component = {About}/>
           <Route path = '/Portfolio' component = {Portfolio}/>
           <Route path = '/Contact' component = {Contact} /> 
         </Switch>

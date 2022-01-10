@@ -1,19 +1,14 @@
 
 :root {
-  /* --col1: #000000;
-  --col2: #002f06;
-  --col3: #1c6000;
-  --col4: #27a102;
-  --col5: #1fea00;
-  --col6: #01fe87;  */
-  --col0: #141313;
-  --col1: #000000; 
-  --col2: #379683; 
-  --col3: #5CDB95; 
-  --col4: #8EE4Af; 
-  --col5: #EDF5E1;
+  --col0: #2C2B30;
+  --col1: #FFE5Ec; 
+  --col2: #F8B7CD; 
+  --col3: #C8E7F5; 
+  --col4: #67A3D9; 
+  --col5: #EBECF0;
+  /* --col5: #EDF5E1;
   --col6: #01fe87;
-  --col7: #04522d;
+  --col7: #04522d; */
 }
 
 .app {
@@ -26,11 +21,10 @@
   margin: 0; 
   padding: 0; 
   font-family: 'Lato', sans-serif;
-  font-family: 'Manrope', sans-serif;
 }
 
 body {
-  background-color: var(--col1); 
+  background-color: var(--col0); 
   min-height: 100vh;
 }
 

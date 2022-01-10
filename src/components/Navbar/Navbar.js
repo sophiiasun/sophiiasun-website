@@ -1,27 +1,39 @@
-import React from 'react';
-import {
-  Nav,
-  NavLink,
-  Name,
-  NavMenu,
-} from './NavbarElements';
+import React, {useState, useEffect} from 'react';
+import { Nav, NavLink, Name, NavMenu, navStyles } from './NavbarElements';
 import './Logo.css'
 import logo from './logo.png';
-import logo_green from './logo_green.png';
 
 const Navbar = () => {
+  const [navBackground, setNavBackground] = useState('navBarTransparent')
+    const navRef = React.useRef()
+    navRef.current = navBackground
+    useEffect(() => {
+        const handleScroll = () => {
+            const show = window.scrollY > 50
+            if (show) {
+                setNavBackground('navBarSolid')
+            } else {
+                setNavBackground('navBarTransparent')
+            }
+        }
+        document.addEventListener('scroll', handleScroll)
+        return () => {
+            document.removeEventListener('scroll', handleScroll)
+        }
+    }, [])
+
   return (
     <>
-      <Nav>
-        <img src={logo_green} className = "Logo"/>
-        <Name to = '/' activeStyle>
-          Thomas  
+      <Nav className={navStyles()[navRef.current]}>
+        <img src={logo} className="Logo" />
+        <Name to='/' activeStyle>
+          Sophia
         </Name>
         <NavMenu>
           <NavLink to='/About' activeStyle>
             About
           </NavLink>
-          <NavLink to='/Portfolio' activeStyle>  
+          <NavLink to='/Portfolio' activeStyle>
             Portfolio
           </NavLink>
         </NavMenu>
