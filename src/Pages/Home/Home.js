@@ -5,7 +5,7 @@ const Home = () => {
 	return (
 		<>
 			<div class='nameContainer'>		
-				<div class='name' data-text='Sophia'>Sophia</div>
+				<div class='name' data-text="Welcome">Welcome</div>
 			</div>
 
 			<div class='homeContainer' style={{ backgroundImage: `url("./Personal-Site/Images/Home/background.png")`, backgroundAttachment:'fixed', backgroundSize:'100% 100%' }}>
