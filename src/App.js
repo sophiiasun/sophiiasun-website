@@ -5,8 +5,7 @@ import {useState} from 'react'
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
 import About from './Pages/About/About'; 
-import Home from './Pages/Home'; 
-import Contact from './Pages/Contact';  
+import Home from './Pages/Home/Home'; 
 import Portfolio from './Pages/Portfolio/Portfolio'; 
 
 import ParticlesBg from 'particles-bg'
@@ -18,10 +17,9 @@ function App() {
       <Router>
         <Navbar /> 
         <Switch>
-          <Route path = '/' exact component = {Home}/>
+          <Route path = '/Home' component = {Home}/>
           <Route path = '/About' component = {About}/>
           <Route path = '/Portfolio' component = {Portfolio}/>
-          <Route path = '/Contact' component = {Contact} /> 
         </Switch>
       </Router>
     </div>  

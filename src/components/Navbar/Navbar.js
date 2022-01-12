@@ -26,9 +26,7 @@ const Navbar = () => {
 		<>
 			<Nav className={navStyles()[navRef.current]}>
 				<img src={logo} className="Logo" />
-				<Name to='/' activeStyle>
-					Sophia
-				</Name>
+				<Name to='/Home' activeStyle>Sophia</Name>
 				<NavMenu>
 					<NavLink to='/About' activeStyle>About</NavLink>
 					<NavLink to='/Portfolio' activeStyle>Portfolio</NavLink>
@@ -36,7 +34,7 @@ const Navbar = () => {
 				</NavMenu>
 			</Nav>
 		</>
-	);
-};
+	)
+}
 
 export default Navbar;
