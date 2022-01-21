@@ -7,7 +7,7 @@
 }
 
 .header {
-    height:auto; width:auto; font-size:10vw; font-weight:bold; color:var(--col1); z-index:10; padding:0; 
+    height:auto; width:auto; font-size:10vw; font-weight:bold; color:var(--col1); z-index:10; padding:0;
 }
 
 *::-webkit-scrollbar {
