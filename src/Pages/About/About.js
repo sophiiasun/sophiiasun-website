@@ -11,8 +11,7 @@ const About = () => {
 		<>
 			<div class='headerContainer'>
 				<div class='header'>
-					<img class='headerImg' src='./my personal website/Images/About/me2.jpg'>
-					</img>
+					<img class='headerImg' src='./Images/About/me2.jpg'></img>
 				</div>
 				<div class='header'>
 					I'm Sophia Sun

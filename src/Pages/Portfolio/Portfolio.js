@@ -18,7 +18,7 @@ const Portfolio = () => {
 				header='medicap'
 				body={Medicapp}
 				date='09/19/2021'
-				imgLink='./Personal-Site/Images/MedicApp.jpg'
+				imgLink='./Images/Portfolio/MedicApp.jpg'
 				github='https://github.com/sophiiasun/HTN'
 				devpost='https://devpost.com/software/medicapp-yd2rwc'
 			/>
@@ -27,7 +27,7 @@ const Portfolio = () => {
 				header='minesweeper'
 				body={Minesweeper}
 				date='04/16/2021'
-				imgLink='./Personal-Site/Images/Minesweeper.png'
+				imgLink='./Images/Portfolio/Minesweeper.png'
 				github='https://github.com/sophiiasun/Minesweeper'
 
 			/>
