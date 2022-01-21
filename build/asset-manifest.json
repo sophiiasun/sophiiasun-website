@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sophiiasun-website/static/css/main.0b2c3998.chunk.css",
+    "main.js": "/sophiiasun-website/static/js/main.7152e0f9.chunk.js",
+    "main.js.map": "/sophiiasun-website/static/js/main.7152e0f9.chunk.js.map",
+    "runtime-main.js": "/sophiiasun-website/static/js/runtime-main.ef15c13e.js",
+    "runtime-main.js.map": "/sophiiasun-website/static/js/runtime-main.ef15c13e.js.map",
+    "static/js/2.a8a29331.chunk.js": "/sophiiasun-website/static/js/2.a8a29331.chunk.js",
+    "static/js/2.a8a29331.chunk.js.map": "/sophiiasun-website/static/js/2.a8a29331.chunk.js.map",
+    "index.html": "/sophiiasun-website/index.html",
+    "static/css/main.0b2c3998.chunk.css.map": "/sophiiasun-website/static/css/main.0b2c3998.chunk.css.map",
+    "static/js/2.a8a29331.chunk.js.LICENSE.txt": "/sophiiasun-website/static/js/2.a8a29331.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef15c13e.js",
+    "static/js/2.a8a29331.chunk.js",
+    "static/css/main.0b2c3998.chunk.css",
+    "static/js/main.7152e0f9.chunk.js"
+  ]
+}
