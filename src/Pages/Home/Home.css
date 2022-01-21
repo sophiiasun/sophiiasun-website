@@ -6,7 +6,7 @@
 .homeCardImg { height:40vw; max-width:100%; object-fit:cover; border:0.2vw solid var(--col1); border-radius:3vw; }
 .homeCard:hover { transform:rotateY(0.5turn) }
 
-.nameContainer { height:auto; width:auto; margin-bottom:3vw; justify-content:center; align-items:center; display:flex; }
+.nameContainer { height:auto; width:auto; margin:3vw 0; justify-content:center; align-items:center; display:flex; }
 .name::before { content:attr(data-text); position:absolute; top:0; left:0; width:0; height:100%; color:var(--col1); -webkit-text-stroke: 0.1vw var(--col1); border-right: 2px solid var(--col1); overflow:hidden; animation: animate 2s linear 0.5s 1 normal forwards, flashBar 1s infinite; }
 .name { position:relative; width:70vw; font-size:13vw; font-family:'Raleway',sans-serif; color:var(--col0); -webkit-text-stroke:0.3vw var(--col1); text-transform:uppercase; }
 
