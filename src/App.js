@@ -8,7 +8,7 @@ import About from './Pages/About/About';
 import Home from './Pages/Home/Home'; 
 import Portfolio from './Pages/Portfolio/Portfolio'; 
 
-import ParticlesBg from 'particles-bg'
+// import ParticlesBg from 'particles-bg'
 
 
 function App() {
