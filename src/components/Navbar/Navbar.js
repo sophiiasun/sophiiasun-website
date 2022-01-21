@@ -10,11 +10,8 @@ const Navbar = () => {
 	useEffect(() => {
 		const handleScroll = () => {
 			const show = window.scrollY > 50
-			if (show) {
-				setNavBackground('navBarSolid')
-			} else {
-				setNavBackground('navBarTransparent')
-			}
+			if (show) setNavBackground('navBarSolid')
+			else setNavBackground('navBarTransparent')
 		}
 		document.addEventListener('scroll', handleScroll)
 		return () => {
