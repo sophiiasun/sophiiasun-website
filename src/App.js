@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Navbar /> 
         <Switch>
-          <Route path = '/' exact component = {Home}/>
+          <Route path = '/sophiiasun-website' exact component = {Home}/>
           <Route path = '/About' component = {About}/>
           <Route path = '/Portfolio' component = {Portfolio}/>
         </Switch>
