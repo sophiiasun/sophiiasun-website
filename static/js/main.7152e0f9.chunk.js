@@ -1,0 +1,2 @@
+(this["webpackJsonpsandbox-testing"]=this["webpackJsonpsandbox-testing"]||[]).push([[0],{10:function(t,n,e){"use strict";e.r(n);e(0);var s=e(3),c=e.n(s),o=e(1);var a=function(){return Object(o.jsx)("div",{className:"App"})};e(9);c.a.render(Object(o.jsx)(a,{}),document.getElementById("root"))},9:function(t,n,e){}},[[10,1,2]]]);
+//# sourceMappingURL=main.7152e0f9.chunk.js.map

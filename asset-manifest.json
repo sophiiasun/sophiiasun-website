@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sophiiasun/sophiiasun-website/static/css/main.0910cb25.chunk.css",
-    "main.js": "/sophiiasun/sophiiasun-website/static/js/main.f55844dc.chunk.js",
-    "main.js.map": "/sophiiasun/sophiiasun-website/static/js/main.f55844dc.chunk.js.map",
-    "runtime-main.js": "/sophiiasun/sophiiasun-website/static/js/runtime-main.e0d55498.js",
-    "runtime-main.js.map": "/sophiiasun/sophiiasun-website/static/js/runtime-main.e0d55498.js.map",
-    "static/js/2.9e49e264.chunk.js": "/sophiiasun/sophiiasun-website/static/js/2.9e49e264.chunk.js",
-    "static/js/2.9e49e264.chunk.js.map": "/sophiiasun/sophiiasun-website/static/js/2.9e49e264.chunk.js.map",
-    "index.html": "/sophiiasun/sophiiasun-website/index.html",
-    "static/css/main.0910cb25.chunk.css.map": "/sophiiasun/sophiiasun-website/static/css/main.0910cb25.chunk.css.map",
-    "static/js/2.9e49e264.chunk.js.LICENSE.txt": "/sophiiasun/sophiiasun-website/static/js/2.9e49e264.chunk.js.LICENSE.txt",
-    "static/media/Logo.css": "/sophiiasun/sophiiasun-website/static/media/logo.5ed24666.png"
+    "main.css": "/sophiiasun-website/static/css/main.54305138.chunk.css",
+    "main.js": "/sophiiasun-website/static/js/main.99591823.chunk.js",
+    "main.js.map": "/sophiiasun-website/static/js/main.99591823.chunk.js.map",
+    "runtime-main.js": "/sophiiasun-website/static/js/runtime-main.ef15c13e.js",
+    "runtime-main.js.map": "/sophiiasun-website/static/js/runtime-main.ef15c13e.js.map",
+    "static/js/2.37bc77aa.chunk.js": "/sophiiasun-website/static/js/2.37bc77aa.chunk.js",
+    "static/js/2.37bc77aa.chunk.js.map": "/sophiiasun-website/static/js/2.37bc77aa.chunk.js.map",
+    "index.html": "/sophiiasun-website/index.html",
+    "static/css/main.54305138.chunk.css.map": "/sophiiasun-website/static/css/main.54305138.chunk.css.map",
+    "static/js/2.37bc77aa.chunk.js.LICENSE.txt": "/sophiiasun-website/static/js/2.37bc77aa.chunk.js.LICENSE.txt",
+    "static/media/Logo.css": "/sophiiasun-website/static/media/logo.5ed24666.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0d55498.js",
-    "static/js/2.9e49e264.chunk.js",
-    "static/css/main.0910cb25.chunk.css",
-    "static/js/main.f55844dc.chunk.js"
+    "static/js/runtime-main.ef15c13e.js",
+    "static/js/2.37bc77aa.chunk.js",
+    "static/css/main.54305138.chunk.css",
+    "static/js/main.99591823.chunk.js"
   ]
 }
