@@ -20,7 +20,7 @@ const Portfolio = () => {
 				header='medicap'
 				body={Medicapp}
 				date='09/19/2021'
-				imgLink='./sophiiasun-website/Images/Portfolio/MedicApp.jpg'
+				imgLink='./Images/Portfolio/MedicApp.jpg'
 				github='https://github.com/sophiiasun/HTN'
 				devpost='https://devpost.com/software/medicapp-yd2rwc'
 			/>
