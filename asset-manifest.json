@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sophiiasun-website/static/css/main.54305138.chunk.css",
-    "main.js": "/sophiiasun-website/static/js/main.99591823.chunk.js",
-    "main.js.map": "/sophiiasun-website/static/js/main.99591823.chunk.js.map",
+    "main.js": "/sophiiasun-website/static/js/main.2076fcc3.chunk.js",
+    "main.js.map": "/sophiiasun-website/static/js/main.2076fcc3.chunk.js.map",
     "runtime-main.js": "/sophiiasun-website/static/js/runtime-main.ef15c13e.js",
     "runtime-main.js.map": "/sophiiasun-website/static/js/runtime-main.ef15c13e.js.map",
     "static/js/2.37bc77aa.chunk.js": "/sophiiasun-website/static/js/2.37bc77aa.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ef15c13e.js",
     "static/js/2.37bc77aa.chunk.js",
     "static/css/main.54305138.chunk.css",
-    "static/js/main.99591823.chunk.js"
+    "static/js/main.2076fcc3.chunk.js"
   ]
 }
