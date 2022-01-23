@@ -10,12 +10,12 @@ const About = () => {
 	return (
 		<>
 			<div class='headerContainer'>
-				<div class='header'>
+				<div class='header1'>
 					<img class='headerImg' src='./Images/About/me2.jpg'></img>
 				</div>
-				<div class='header'>
-					I'm Sophia Sun
-				</div>
+				<div class='nameContainer'>		
+				<div class='name' data-text="I'm Sophia Sun">I'm Sophia Sun</div>
+			</div>
 			</div>
 		</>
 	)
