@@ -11,7 +11,7 @@ const Portfolio = () => {
 				header='Chatify'
 				body={Chatify}
 				date='10/24/2021'
-				imgLink='./sophiiasun-website/Images/Portfolio/MedicApp.jpg'
+				imgLink='./Images/Portfolio/MedicApp.jpg'
 				github='https://github.com/sophiiasun/Chatify'
 				devpost='https://devpost.com/software/chatify-42wgsp'
 			/>
