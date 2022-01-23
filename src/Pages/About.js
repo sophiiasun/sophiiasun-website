@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { useState } from 'react'
-import './About.css'
+import './Pages.css'
 import ParticlesBg from 'particles-bg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee, faCalculator, faHeadphones, faGamepad, faLaptop, faEnvelope } from "@fortawesome/free-solid-svg-icons"

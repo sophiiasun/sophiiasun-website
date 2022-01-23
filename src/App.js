@@ -2,9 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar'; 
 import './App.css';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'; 
-import About from './Pages/About/About'; 
-import Home from './Pages/Home/Home'; 
-import Portfolio from './Pages/Portfolio/Portfolio'; 
+import About from './Pages/About'; 
+import Home from './Pages/Home'; 
+import Portfolio from './Pages/Portfolio'; 
 
 function App() {
   return (

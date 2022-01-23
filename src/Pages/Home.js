@@ -1,40 +1,33 @@
-// import React from 'react';
-// import Navbar from '../components/Navbar/Navbar'; 
-// import Button from '../components/Button'
-// import {useState} from 'react'  
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-// import './Pages.css';
-// import ParticlesBg from 'particles-bg'
+import React from 'react'
+import './Pages.css'
 
+const Home = () => {
+	return (
+		<>
+			<div class='nameContainer'>		
+				<div class='name' data-text="Welcome">Welcome</div>
+			</div>
 
-// function Home() {
-//   const interest = ["Coding", "Contest Math", "Music", "Playing Games",  "Sophia", "Eating", "TV"];
-//   const [interestIndex, setIndex] = useState(0); 
-//   return (
-//     <div className="Home">
-//       <div className = "container1">
-//         <h2 className = "name" data-text = "Thomas">Thomas</h2>
-//         <h3 className = "headerStyle" data-text = "Enjoys">Enjoys </h3>
-//         <Button className = "aboutBtn" onClick= {() => setIndex((interestIndex + 1) % interest.length)} text = {interest[interestIndex]}/>
-//         {/* <Textbox className = "textbox" text = "About Me" size = "4.5vw"/>  */}
-//         <ParticlesBg type = "cobweb" bg = {true} color = "#01fe87"/> 
-//       </div>
-//     </div>  
-//   );
-// }
+			<div class='homeContainer' style={{ backgroundImage: `url("./Images/Home/background.png")`, backgroundAttachment:'fixed', backgroundSize:'100% 100%' }}>
+				<div class='homeCard'>
+					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/boats.jpg'></img></div>
+					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/me4.jpg'></img></div>
+				</div>
+				<div class='homeCard'>
+					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/me6.jpg'></img></div>
+					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/me5.jpg'></img></div>
+				</div>
+				<div class='homeCard'>
+					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/me1.jpg'></img></div>
+					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/dog.png'></img></div>
+				</div>
+				<div class='homeCard'>
+					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/food.jpg'></img></div>
+					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/cheers2.jpg'></img></div>
+				</div>
+			</div>
+		</>
+	)
+}
 
-// /* "color"
-// "ball"
-// "lines"
-// "thick"
-// "circle"
-// "cobweb"
-// "polygon"
-// "square"
-// "tadpole"
-// "fountain"
-// "random"
-// "custom"
-// */ 
-
-// export default Home;
+export default Home
