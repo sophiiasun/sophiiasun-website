@@ -1,20 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import { useState } from 'react'
 import './Pages.css'
-import ParticlesBg from 'particles-bg'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCoffee, faCalculator, faHeadphones, faGamepad, faLaptop, faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { faSpotify, faDiscord, faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 const About = () => {
 	return (
 		<>
-			<div class='headerContainer'>
+			<div class='headerContainer' style={{justifyContent:`center`}}>
 				<div class='header1'>
-					<img class='headerImg' src='./Images/About/me2.jpg'></img>
+					<img class='headerImg' style={{width:`100vw`, height:`100vh`}} src='./Images/About/me2.jpg'></img>
 				</div>
 				<div class='nameContainer'>		
-				<div class='name' data-text="I'm Sophia Sun">I'm Sophia Sun</div>
+				<div class='name' style={{fontSize:`11vw`, zIndex:'100', width:`86vw`}} data-text="I'm Sophia Sun">I'm Sophia Sun</div>
 			</div>
 			</div>
 		</>

@@ -9,7 +9,7 @@ const Portfolio = () => {
 				header='Chatify'
 				body={Chatify}
 				date='10/24/2021'
-				imgLink='./Images/Portfolio/chatify.jpg'
+				imgLink='./Images/Portfolio/Chatify.png'
 				github='https://github.com/sophiiasun/Chatify'
 				devpost='https://devpost.com/software/chatify-42wgsp'
 			/>

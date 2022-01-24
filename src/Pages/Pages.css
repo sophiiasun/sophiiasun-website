@@ -10,7 +10,7 @@
 
 @keyframes animate { /* Name */
 	0% { width: 0; }
-	80% { width: 70%; }
+	80% { width: 80%; }
 	100% { width: 100%; }
 }
 
@@ -24,7 +24,7 @@
 /* ABOUT PAGE */
 
 .headerContainer { height:90vmin; width:98vmax; justify-content:right; align-items:center; display:flex; }
-.headerImg { height:75vw; width:100vw; object-fit:cover; position:absolute; top:0; left:0; zoom:80%; }
+.headerImg { height:75vw; width:100vw; object-fit:cover; position:absolute; top:0; left:0; }
 .header1 { height:auto; width:auto; font-size:10vw; font-weight:bold; color:var(--col1); z-index:10; padding:0; background-color:white; }
 .header2 { height:auto; width:auto; font-size:10vw; font-weight:bold; color:var(--col1); z-index:10; padding:0; background-color:white; background-color:rgba(255, 255, 255, 0.5); border-radius:1vw; }
 

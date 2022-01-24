@@ -1,4 +1,4 @@
-img { width: auto\9; object-fit:cover; max-width:200%!important; }
+img { object-fit:cover; border:0.2vw solid white; border-radius:0.5vw; border:0.1vw solid var(--col1); width:26vw; height:15vw;  }
 
 .card { height:auto; margin:2vw 14vw; display:grid; grid-template-columns:repeat(2, auto); background-color:var(--col0); border-radius:1vw; border:0.2vw solid var(--col1); transition: 0.2s; }
 .card:hover { box-shadow: 0 0 30px 5px var(--col1) }
@@ -6,7 +6,7 @@ img { width: auto\9; object-fit:cover; max-width:200%!important; }
 .cardHeader { font-size:3vw; color:var(--col5); border-bottom:0.2vw solid var(--col1); text-transform:uppercase; }
 .cardBody { grid-column-start:1; grid-row-start:2; position:relative; font-size:1.5vh; color:var(--col5); padding:1vw 1vw 1vw 0; font-weight:100; }
 .cardDate { margin-top:1.2vw; float:right; color:var(--col1); letter-spacing:0.1vw; align-items:center; justify-content:center; font-size:2.5vh; }
-.cardImage { border-radius:0.5vw; margin:2vw; border:0.2vw solid var(--col7); border-radius:0.5vw; width:26vw; height:15vw; overflow:hidden; }
+.cardImage { width:26vw;  margin:2vw;  overflow:hidden; }
 .cardButton { align-items:center; justify-content:center; letter-spacing:0.1vw; text-transform:uppercase; padding:0.5vw 0.7vw; height:auto; width:auto; display:inline-block; text-decoration:none; font-size:0.8vw; color:var(--col1); border:0.1vw solid var(--col1); border-radius:1.5vmin; background-size:100vw 100vw; transition:0.5s; margin:1vw 2vw 1vw 0; }
 .cardButton:hover  { color:var(--col0); background:var(--col1); background-position:50vw 0; }
 
