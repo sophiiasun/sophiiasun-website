@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Nav, NavLink, Name, NavMenu, navStyles } from './NavbarElements';
-import './Logo.css'
+import '../../components/Components.css'
 import logo from './logo.png';
 
 const Navbar = () => {
@@ -22,12 +22,11 @@ const Navbar = () => {
 	return (
 		<>
 			<Nav className={navStyles()[navRef.current]}>
-				<img src={logo} className="Logo" />
+				<img src={logo} style={{height:'4vw', width:'auto'}} className="Logo" />
 				<Name to='/' activeStyle>Sophia</Name>
 				<NavMenu>
 					<NavLink to='/About' activeStyle>About</NavLink>
 					<NavLink to='/Portfolio' activeStyle>Portfolio</NavLink>
-					<NavLink to='/Hackathons' activeStyle>Hackathons</NavLink>
 				</NavMenu>
 			</Nav>
 		</>

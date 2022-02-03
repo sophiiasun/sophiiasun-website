@@ -1,9 +1,11 @@
 import React from 'react'
+import ParticlesBg from 'particles-bg'
 import './Pages.css'
 
 const Home = () => {
 	return (
 		<>
+			<ParticlesBg type="cobweb" color='#FFE5Ec' bg={true}/> 
 			<div class='nameContainer'>		
 				<div class='name' data-text="Welcome">Welcome</div>
 			</div>

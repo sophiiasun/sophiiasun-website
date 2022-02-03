@@ -1,4 +1,5 @@
 import React from 'react'
+import ParticlesBg from 'particles-bg'
 import Card from '../components/Card/Card'
 import Card2 from '../components/Card/Card2'
 
@@ -70,6 +71,8 @@ const Portfolio = () => {
 				imgLink='./Images/Portfolio/Minesweeper.png'
 				github='https://github.com/sophiiasun/Minesweeper'
 			/>
+			<ParticlesBg type="cobweb" color='#FFE5Ec' bg={true} class='background'/> 
+			<ParticlesBg type="cobweb" color='#FFE5Ec' bg={true}/> 
 		</div>
 	)
 }

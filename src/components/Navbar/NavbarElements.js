@@ -40,8 +40,6 @@ export const NavLink = styled(Link)`
   &:hover { background-position:50vw 0; color:var(--col1); background:var(--col0) }
 `;
 
-
-
 export const Name = styled(Link)`    
   color: black; 
   justify-self: start;

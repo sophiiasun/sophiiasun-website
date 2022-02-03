@@ -7,5 +7,3 @@ ReactDOM.render(
     <App />, 
   document.getElementById('root')
 );
-
-// idea: hovering over my name will change letters in some way 

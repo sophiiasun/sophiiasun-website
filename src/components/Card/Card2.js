@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Card.css'
+import '../../components/Components.css'
 
 function Popup(props) {
 	return (props.trigger) ? (

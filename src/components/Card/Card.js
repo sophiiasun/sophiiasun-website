@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Card.css'
+import '../../components/Components.css'
 
 const Card = ({ header, body, imgLink, date, github, devpost }) => {
 	return (
