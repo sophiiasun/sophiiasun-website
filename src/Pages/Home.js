@@ -5,28 +5,15 @@ import './Pages.css'
 const Home = () => {
 	return (
 		<>
-			<ParticlesBg type="cobweb" color='#FFE5Ec' bg={true}/> 
-			<div class='nameContainer'>		
-				<div class='name' data-text="Welcome">Welcome</div>
-			</div>
+			<div id="app">
+				<div class="title">
+					<div class="title-inner">
+						<div class="cafe"><div class="cafe-inner">Aspiring</div></div>
+						<div class="mozart"><div class="mozart-inner">Dreamcatcher</div></div>
+					</div>
+				</div>
 
-			<div class='homeContainer' style={{ backgroundImage: `url("./Images/Home/background.png")`, backgroundAttachment:'fixed', backgroundSize:'100% 100%' }}>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/boats.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/me4.jpg'></img></div>
-				</div>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/me6.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/me5.jpg'></img></div>
-				</div>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/me1.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/dog.png'></img></div>
-				</div>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/food.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/cheers2.jpg'></img></div>
-				</div>
+				<div class="image"><img style={{height:'54vw'}} src='./Images/Home/dog5.png' alt=''></img></div>
 			</div>
 		</>
 	)

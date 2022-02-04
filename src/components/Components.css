@@ -7,7 +7,7 @@ img { object-fit:cover; }
 .cardHeader { font-size:3vw; color:var(--col5); border-bottom:0.2vw solid var(--col1); text-transform:uppercase; }
 .cardBody { grid-column-start:1; grid-row-start:2; position:relative; font-size:1.5vh; color:var(--col5); padding:1vw 1vw 1vw 0; font-weight:100; }
 .cardDate { margin-top:1.2vw; float:right; color:var(--col1); letter-spacing:0.1vw; align-items:center; justify-content:center; font-size:2.5vh; }
-.cardImage { width:26vw;  margin:2vw;  overflow:hidden; }
+.cardImage { width:26vw; height:15vw; margin:2vw; overflow:hidden; }
 .cardButton { align-items:center; justify-content:center; letter-spacing:0.1vw; text-transform:uppercase; padding:0.5vw 0.7vw; height:auto; width:auto; display:inline-block; text-decoration:none; font-size:0.8vw; color:var(--col1); border:0.1vw solid var(--col1); border-radius:1.5vmin; background-size:100vw 100vw; transition:0.5s; margin:1vw 2vw 1vw 0; }
 .cardButton:hover  { color:var(--col0); background:var(--col1); background-position:50vw 0; }
 
@@ -18,10 +18,11 @@ img { object-fit:cover; }
 .close-btn:hover { color:var(--col0); background:var(--col1); background-position:50vw 0; }
 
 .container1 { justify-content:center; display:flex; align-items:center; margin:1vw 0; }
-.header { font-size:2vw; font-weight:bold; color:var(--col0) }
+.header { font-size:2vw; font-weight:bold; color:var(--col0); height:auto; }
 .icons{ color:var(--col0); font-size:5vw; transition:0.5s; align-self:bottom; margin:0 1vw; }
 .icons:hover { color:var(--col1); cursor:pointer; }
 #discord:hover ~ .discUser { color:var(--col1); }
 .discUser { margin-top:1.1vw; font-size:1.5vw; color:transparent; height:auto; width:auto; position:absolute; right:6%; transition:0.5s; }
 #email:hover ~ .email { color:var(--col1); }
 .email { margin-top:1.1vw; font-size:1.5vw; color:transparent; height:auto; width:auto; position:absolute; right:2.7%; transition:0.5s; }
+a { height:auto; }
