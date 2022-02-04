@@ -5,7 +5,7 @@ const Card = ({ header, body, imgLink, date, github, devpost }) => {
 	return (
 		<>
 			<div className="card">
-				<div className="cardImage"><img style={{height:'100%'}} src={imgLink}></img></div>
+				<div className="cardImage"><img src={imgLink}></img></div>
 				<div className="cardContainer">
 					<h1 className="cardHeader">{header} </h1>
 					<h4 className="cardBody">{body}</h4>
