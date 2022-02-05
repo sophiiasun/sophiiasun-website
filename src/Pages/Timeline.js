@@ -6,23 +6,63 @@ import TimelineCard from '../components/Card/TimelineCard'
 const Timeline = () => {
 	return (
 		<>
-			{/* <div class="timelineContainer">
-				<div class="timeline">
-                <div class="icon"></div>
-                <div class="date-content">
-                    <div class="date-outer">
-                        <span class="date">
-                            <span class="month">length</span>
-                            <span class="year">year</span>
-                        </span>
-                    </div>
-                </div>
-                <div class="timeline-content">
-                    <h5 class="timelineTitle">title</h5>
-                    <p class="description">description</p>
-                </div>
-            </div>
-			</div> */}
+			<div class='headerContainer2'>
+				<div class='header1' style={{fontSize:'3vw', background:'var(--col0)'}}>Wondering what I've been up to?</div>
+			</div>
+
+
+			<div class='timelineContainer'>
+				<div class='main-timeline'>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+						<TimelineCard 
+							length='1'
+							year='2'
+							title='Product Designer'
+							description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.'
+						/>
+				</div>
+			</div>
 		</>
 	)
 }

@@ -1,7 +1,10 @@
+
+   
 import React from 'react'
 import ParticlesBg from 'particles-bg'
 import Card from '../components/Card/Card'
 import Card2 from '../components/Card/Card2'
+import Card3 from '../components/Card/Card3'
 
 const Portfolio = () => {
 	return (
@@ -24,12 +27,28 @@ const Portfolio = () => {
 				devpost='https://devpost.com/software/medicapp-yd2rwc'
 			/>
 
+			<Card2
+				header='Tetros'
+				body={Tetros}
+				date='07/29/2021'
+				imgLink='./Images/Portfolio/tetros.png'
+				github='https://github.com/sophiiasun/Tetros'
+			/>
+
+			<Card2
+				header='Tic Tac Toe'
+				body={TicTacToe}
+				date='07/29/2021'
+				imgLink='./Images/Portfolio/tictactoe.png'
+				github='https://github.com/sophiiasun/Tic-Tac-Toe'
+			/>
+
 			<Card
 				header='vibot'
 				body={ViBot}
 				date='04/24/2021'
-				imgLink='./Images/Portfolio/Minesweeper.png'
-				github='https://github.com/sophiiasun/Minesweeper'
+				imgLink='./Images/Portfolio/vibot.png'
+				github='https://github.com/sophiiasun/ViBot'
 			/>
 
 			<Card2
@@ -40,57 +59,59 @@ const Portfolio = () => {
 				github='https://github.com/sophiiasun/Minesweeper'
 			/>
 
-			<Card
+			<Card3
 				header='Dominoes'
 				body={Dominoes}
 				date='06/20/2020'
-				imgLink='./Images/Portfolio/Minesweeper.png'
-				github='https://github.com/sophiiasun/Minesweeper'
+				imgLink='./Images/Portfolio/dominoes.png'
+				github='https://github.com/sophiiasun/Dominoes'
 			/>
 
 			<Card
 				header='Rock, Paper, Scissors!'
 				body={Rock}
 				date='06/19/2020'
-				imgLink='./Images/Portfolio/Minesweeper.png'
-				github='https://github.com/sophiiasun/Minesweeper'
+				imgLink='./Images/Portfolio/rock.png'
+				github='https://github.com/sophiiasun/Rock-Paper-Scissors-'
+				devpost='https://www.youtube.com/watch?v=49EYVgdUtA0'
 			/>
 
 			<Card
 				header='Infinite Recharge'
 				body={Infinite}
 				date='03/22/2020'
-				imgLink='./Images/Portfolio/Minesweeper.png'
-				github='https://github.com/sophiiasun/Minesweeper'
+				imgLink='./Images/Portfolio/frc.png'
+				github='https://github.com/sophiiasun/INFINITE-RECHARGE-2020'
+				devpost='https://www.youtube.com/watch?v=gmiYWTmFRVE'
 			/>
 
 			<Card
 				header='Vex IQ Robotics'
 				body={Vex}
 				date='11/20/2019'
-				imgLink='./Images/Portfolio/Minesweeper.png'
+				imgLink='./Images/Portfolio/abc.png'
 				github='https://github.com/sophiiasun/Minesweeper'
+				devpost='https://www.youtube.com/watch?v=299XMhfa4Pw'
 			/>
-			<ParticlesBg type="cobweb" color='#FFE5Ec' bg={true} class='background'/> 
-			<ParticlesBg type="cobweb" color='#FFE5Ec' bg={true}/> 
 		</div>
 	)
 }
 
-const Chatify = `Chatify was a project developed for a Hackathon submission (Hack This Fall 2.0). 
-Combining numerous hackathon ideas, Chatify users discuss global issues through socially tough
-times (e.g. Covid-19 pandemic). Join numerous rooms with different topics, or start
-their own room with a new topic. Built with React, Bootstrap, and Firebase.`
+const Chatify = `Chatify was a project developed for a Hackathon (Hack This Fall 2.0). Chatify users discuss 
+global issues through socially tough times (e.g. Covid-19 pandemic). Join numerous rooms with different topics, 
+or start their own room with a new topic. Built with React, Bootstrap, and Firebase.`
 
-const Medicapp = `This project is aimed to help medical professional to access on-the-scene patient 
-information using face-recognition technology. Implemented using Flask, NodeJS, Python, Tailwind, and Vanilla
-Javascript. User information is stored using an SQL database hosted by Microsoft Azure. Medical 
-personel use face scanning technology to recognize the patient, where Medicapp will retreieve
-his/her's medical history.`
+const Medicapp = `Medicapp is aimed to help medical professional to access patients' medical history using 
+face-recognition technology. User information is stored using an SQL database hosted by Microsoft Azure. Built 
+with Flask, NodeJS, Python, Tailwind, and Vanilla Javascript.`
 
 const Tetros = `Tetros is a recreation of the popular game Tetris by Thomas Wang and Sophia Sun. Our 
 version features all the traditional Tetris perks, such as T-spins, points system, 7-block rotations, and more!
 Created using basic Vanilla Javascript, CSS, and HTML.`
+
+const TicTacToe = `I created two renditions of the traditional Tic Tac Toe, where you can either play with a 
+friend or play against a bot. The bot is programmed with Minimax algorithm, so it will never lose. Built with 
+Vanilla javascript, html, and css.`
 
 const Minesweeper = `Minesweeper game created using HTML, Javascript, and CSS. Functions similar 
 to that of traditional minesweeper. Left click to expand a tile and right click to mark a tile. Revealed tiles 
