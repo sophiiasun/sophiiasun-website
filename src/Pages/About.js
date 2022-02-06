@@ -10,7 +10,7 @@ const About = () => {
 					<img class='headerImg' style={{width:`100vw`, height:`100vh`}} src='./Images/About/me2.jpg'></img>
 				</div>
 				<div class='nameContainer' style={{display:'flex;'}}>		
-					<div class='name' style={{fontSize:`11vw`, zIndex:'100', width:`86vw`}} data-text="I'm Sophia Sun">I'm Sophia Sun</div>
+					<div class='name' style={{fontSize:`11vw`, zIndex:'100', width:`80vw`}} data-text="I'mSophiaSun">I'mSophiaSun</div>
 				</div>
 			</div>
 
