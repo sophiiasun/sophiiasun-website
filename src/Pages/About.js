@@ -1,6 +1,7 @@
 import React from 'react'
 import ParticlesBg from 'particles-bg'
 import './Pages.css'
+import FlipCard from '../components/Card/FlipCard'
 
 const About = () => {
 	return (
@@ -27,23 +28,19 @@ const About = () => {
 			</div>
 
 			<div class='homeContainer' style={{backgroundImage: `url("./Images/Home/background.png")`, backgroundAttachment:'fixed', backgroundSize:'100% 100%' }}>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/boats.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/me4.jpg'></img></div>
-				</div>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/me6.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/me5.jpg'></img></div>
-				</div>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/me1.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/dog.png'></img></div>
-				</div>
-				<div class='homeCard'>
-					<div class='homeCard-face homeCard-face--front'><img class='homeCardImg' src='./Images/Home/food.jpg'></img></div>
-					<div class='homeCard-face homeCard-face--back'><img class='homeCardImg' src='./Images/Home/cheers2.jpg'></img></div>
-				</div>
-			</div>
+                <div className='headerContainer2'>
+                    <FlipCard img1='./Images/Home/boats.jpg' img2='./Images/Home/me4.jpg'/>
+                    <FlipCard img1='./Images/Home/me6.jpg' img2='./Images/Home/me5.jpg'/>
+                    <FlipCard img1='./Images/Home/me1.jpg' img2='./Images/Home/dog.png'/>
+                    <FlipCard img1='./Images/Home/food.jpg' img2='./Images/Home/cheers2.jpg'/>
+                </div>
+            </div>
+
+			
+
+			
+
+			
 		</>
 	)
 }

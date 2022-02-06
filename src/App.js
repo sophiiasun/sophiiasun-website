@@ -7,6 +7,7 @@ import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio'; 
 import Timeline from './Pages/Timeline'; 
 import Footer from './components/Footer/Footer'; 
+import test from './Pages/test'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path = '/About' component = {About}/>
           <Route path = '/Portfolio' component = {Portfolio}/>
           <Route path = '/Timeline' component = {Timeline}/>
+          <Route path = '/test' component = {test}/>
         </Switch>
         <Footer />
       </Router>
