@@ -38,7 +38,7 @@ const Portfolio = () => {
 			<Card2
 				header='Tic Tac Toe'
 				body={TicTacToe}
-				date='07/29/2021'
+				date='07/22/2021'
 				imgLink='./Images/Portfolio/tictactoe.png'
 				github='https://github.com/sophiiasun/Tic-Tac-Toe'
 			/>
