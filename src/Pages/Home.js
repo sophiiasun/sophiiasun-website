@@ -13,7 +13,7 @@ const Home = () => {
 					</div>
 				</div>
 
-				<div class="image"><img style={{height:'54vw'}} src='./Images/Home/dog2.png' alt=''></img></div>
+				<div class="image"><img style={{height:'93vh'}} src='./Images/Home/dog2.png' alt=''></img></div>
 			</div>
 		</>
 	)
