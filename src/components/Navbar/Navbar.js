@@ -28,7 +28,7 @@ const Navbar = () => {
 					<NavLink to='/About' activeStyle>About</NavLink>
 					<NavLink to='/Portfolio' activeStyle>Portfolio</NavLink>
 					<NavLink to='/Timeline' activeStyle>Timeline</NavLink>
-					{/* <NavLink to='/test' activeStyle>test</NavLink> */}
+					<NavLink to='/test' activeStyle>test</NavLink>
 				</NavMenu>
 			</Nav>
 		</>

@@ -35,12 +35,6 @@ const About = () => {
                     <FlipCard img1='./Images/Home/food.jpg' img2='./Images/Home/cheers2.jpg'/>
                 </div>
             </div>
-
-			
-
-			
-
-			
 		</>
 	)
 }
