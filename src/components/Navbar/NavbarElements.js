@@ -29,7 +29,7 @@ export const NavLink = styled(Link)`
   font-size: 2vh; 
   padding:0.5vw 0.7vw;
   cursor: pointer;
-  border: 0.15vw solid var(--col0); border-radius: 1.5vmin;  
+  border: 0.12vw solid var(--col0); border-radius: 1.5vmin;  
   height: auto;
   width: auto; 
   margin: auto; 
@@ -41,7 +41,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const Name = styled(Link)`    
-  color: black; 
+  color:var(--col0); 
   justify-self: start;
   text-decoration: none; 
   font-size: 3vw; 
