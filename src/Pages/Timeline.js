@@ -6,13 +6,53 @@ import TimelineCard from '../components/Card/TimelineCard'
 const Timeline = () => {
 	return (
 		<>
-			<div class='headerContainer2'>
-				<div class='header1' style={{fontSize:'3vw', background:'var(--col0)'}}>Wondering what I've been up to?</div>
+			<div class='sideImageContainer'>
+				<img src='./Images/Timeline/catlight.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake4.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me3.png' class='sideImage'></img>
+				<img src='./Images/Timeline/dog.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me.png' class='sideImage'></img>
+				<img src='./Images/Timeline/bridge.png' class='sideImage'></img>
+				<img src='./Images/Timeline/pic4.png' class='sideImage'></img>
+				<img src='./Images/Timeline/pic2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/dog2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me5.png' class='sideImage'></img>
+				<img src='./Images/Timeline/tree.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me4.png' class='sideImage'></img>
+				<img src='./Images/Timeline/friends.png' class='sideImage'></img>
+				<img src='./Images/Timeline/sushi.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me6.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake3.png' class='sideImage'></img>
+				<img src='./Images/Timeline/pic3.png' class='sideImage'></img>
+				<img src='./Images/Timeline/ramen.png' class='sideImage'></img>
+			</div>
+			<div class='sideImageContainer' style={{right:'0'}}>
+				<img src='./Images/Timeline/cake2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me5.png' class='sideImage'></img>
+				<img src='./Images/Timeline/tree.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me4.png' class='sideImage'></img>
+				<img src='./Images/Timeline/friends.png' class='sideImage'></img>
+				<img src='./Images/Timeline/sushi.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me6.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake3.png' class='sideImage'></img>
+				<img src='./Images/Timeline/pic3.png' class='sideImage'></img>
+				<img src='./Images/Timeline/ramen.png' class='sideImage'></img>
+				<img src='./Images/Timeline/catlight.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake4.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me3.png' class='sideImage'></img>
+				<img src='./Images/Timeline/dog.png' class='sideImage'></img>
+				<img src='./Images/Timeline/me.png' class='sideImage'></img>
+				<img src='./Images/Timeline/bridge.png' class='sideImage'></img>
+				<img src='./Images/Timeline/pic4.png' class='sideImage'></img>
+				<img src='./Images/Timeline/pic2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/dog2.png' class='sideImage'></img>
+				<img src='./Images/Timeline/cake2.png' class='sideImage'></img>
 			</div>
 
-
-			<div class='timelineContainer'>
-				<div class='main-timeline'>
+			<div class='timelineContainer' >
+				<div class='main-timeline' style={{marginTop:'50px'}}>
 						<TimelineCard 
 							length='July 4,'
 							year='2004'

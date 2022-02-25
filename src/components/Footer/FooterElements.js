@@ -9,8 +9,9 @@ export const Foot = styled.footer`
   bottom:0;
   border-top:0.15vw solid var(--col2);
   margin-top:50px;
-  background-color:rgba(255, 229, 236, 0.7);
+  background-color:rgba(255, 229, 236, 1);
   align-items:center;
+  z-index:10;
 `;
 
 export const FootMenu = styled.div`
