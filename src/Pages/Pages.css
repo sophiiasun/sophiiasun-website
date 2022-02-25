@@ -106,7 +106,7 @@ body{position:relative;}
 .sideImageContainer {
     height:calc(100% - 8vh);
     width:18vw;
-    background-color:red;
+    background-color:transparent;
     position:absolute;
     display:grid;
     grid-template-rows:repeat(auto, 18vw);
