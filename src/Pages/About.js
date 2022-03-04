@@ -1,9 +1,14 @@
-import React from 'react'
+import { React, useState } from 'react'
 import ParticlesBg from 'particles-bg'
 import './Pages.css'
 import FlipCard from '../components/Card/FlipCard'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTv, faHeadphonesAlt, faGamepad, faCameraRetro } from "@fortawesome/free-solid-svg-icons"
 
 const About = () => {
+	const hobbiesInfo = [ "test0", "test1", "test2", "test3", "test4" ]
+	const [hobbieIndex, setHobbieIndex] = useState(0)
+
 	return (
 		<>
 			<div class='headerContainer' style={{justifyContent:`center`}}>
@@ -18,7 +23,7 @@ const About = () => {
 			<div>
 				<div class='homeContainer' style={{height:'auto', marginTop:'5vw'}}>
 					<div class='header' style={{color:'var(--col1)', zIndex:'1000', display:'flex', marginBottom:'2vw'}}>Everything begins with a thought, and thoughts are turned into plans, and plans into reality.</div>
-					<div class="wrapper" style={{marginTop:'2vw'}}>
+					<div class="wrapper" style={{marginTop:'5vw'}}>
 						<ul class="dynamic-txts">
 							<li><span>Programmer</span></li>
 							<li><span>Web Developer</span></li>
@@ -28,6 +33,24 @@ const About = () => {
 					</div>
 				</div>
 			</div>
+
+			<div class='hobbiesContainer'>
+				<div class='hobbiesGrid'> 
+					<div class="gridContainer2">
+						<div class="header hobbiesTitle">My Hobbies</div>
+						<div class="hobbiesGrid2">
+							<button onclick = {() => setHobbieIndex(1)}><FontAwesomeIcon icon={faTv} className="icons" style={{margin:'0 auto'}}/></button>
+							<button onclick = {() => setHobbieIndex(2)}><FontAwesomeIcon icon={faHeadphonesAlt} className="icons" style={{margin:'0 auto'}}/></button>
+							<button onclick = {() => setHobbieIndex(3)}><FontAwesomeIcon icon={faGamepad} className="icons" style={{margin:'0 auto'}}/></button>
+							<button onclick = {() => setHobbieIndex(4)}><FontAwesomeIcon icon={faCameraRetro} className="icons" style={{margin:'0 auto'}}/></button>
+						</div>
+						<div class='header hobbiesContent'>{hobbiesInfo[hobbieIndex]}</div>
+					</div>
+					<div class="gridContainer2">
+						<div class='hobbiesButton'>View Resume</div>
+					</div>
+				</div>
+			</div>			
 
 			<div class="gridContainer" style={{marginTop:'5vw'}}>
                 <div class="containerR__image" style={{backgroundImage:"url('./Images/About/cruise.jpg')"}}>
@@ -57,5 +80,7 @@ const About = () => {
 		</>
 	)
 }
+
+
 
 export default About

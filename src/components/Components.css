@@ -19,7 +19,7 @@ img { object-fit:cover; }
 
 .container1 { justify-content:center; display:flex; align-items:center; margin:1vw 0; }
 .header { font-size:2vw; font-weight:bold; color:var(--col0) }
-.icons{ color:var(--col0); font-size:5vw; transition:0.5s; align-self:bottom; margin:0 1vw; }
+.icons{ color:var(--col0); font-size:5vw; transition:0.5s; align-self:bottom;  }
 .icons:hover { color:var(--col1); cursor:pointer; }
 #discord:hover ~ .discUser { color:var(--col1); }
 .discUser { margin-top:1.1vw; font-size:1.5vw; color:transparent; height:auto; width:auto; position:absolute; right:6%; transition:0.5s; }
