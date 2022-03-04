@@ -16,7 +16,7 @@ export const Nav = styled.nav`
   position: fixed;
   opacity: 100%;
   top:0;
-  z-index:1000;
+  z-index:1000000000;
   border-bottom: 0.15vw solid var(--col2);
 `;
 
