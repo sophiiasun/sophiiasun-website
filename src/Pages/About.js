@@ -12,12 +12,8 @@ const About = () => {
 	return (
 		<>
 			<div class='headerContainer' style={{justifyContent:`center`}}>
-				<div class='header1'>
-					<img class='headerImg' style={{width:`100vw`, height:`100vh`}} src='./Images/About/me2.jpg'></img>
-				</div>
-				<div class='nameContainer' style={{display:'flex;'}}>		
-					<div class='name' style={{fontSize:`11vw`, zIndex:'100', width:`80vw`}} data-text="I'mSophiaSun">I'mSophiaSun</div>
-				</div>
+				<div class='header1'><img class='headerImg' style={{width:`100vw`, height:`100vh`}} src='./Images/About/me2.jpg'></img></div>
+				<div class='nameContainer' style={{display:'flex;'}}><div class='name' style={{fontSize:`11vw`, zIndex:'100', width:`80vw`}} data-text="I'mSophiaSun">I'mSophiaSun</div></div>
 			</div>
 
 			<div>
@@ -48,6 +44,7 @@ const About = () => {
 					</div>
 					<div class="gridContainer2">
 						<div class='hobbiesButton'>View Resume</div>
+						<div class="header hobbiesTitle">About Me</div>
 					</div>
 				</div>
 			</div>			

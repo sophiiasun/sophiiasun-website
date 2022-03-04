@@ -110,7 +110,7 @@ body{position:relative;}
 .gridContainer2 { height:auto; width:auto; justify-content:center; }
 .hobbiesGrid { width:79vw; display:grid; grid-template-columns:repeat(2, 1fr); justify-content:center; grid-gap:3vw; }
 .hobbiesGrid2 { display:grid; grid-template-columns:repeat(4, 1fr); height:5vw; width:auto; margin-top:2vw; }
-.hobbiesButton { transition:0.5s; background-color:var(--col1); font-size:2vw; text-align:center; height:fit-content; width:20vw; border-radius:0.3vw; border-color:var(--col0); border-width:0.14vw; margin:0 auto; } 
+.hobbiesButton { transition:0.5s; background-color:var(--col1); font-size:2vw; text-align:center; height:fit-content; width:20vw; border-radius:0.3vw; border-color:var(--col0); border-width:0.14vw; margin:0 auto; margin-bottom:2vw; } 
 .hobbiesButton:hover { cursor:pointer; color:var(--col1); background-color:var(--col0);  }
 .hobbiesTitle { width:auto; color:var(--col1); text-align:center; border-bottom:0.2vw solid var(--col1); padding-bottom:0vw; justify-content:center; font-size:4vw }
 .hobbiesContent { margin-top:2vw; text-align:justify; text-justify:inter-word; content:attr(data-text);  }
