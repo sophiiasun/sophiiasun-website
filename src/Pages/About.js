@@ -45,6 +45,7 @@ const About = () => {
 					<div class="gridContainer2">
 						<div class='hobbiesButton'>View Resume</div>
 						<div class="header hobbiesTitle">About Me</div>
+						<div class='header hobbiesContent'>helloooo</div>
 					</div>
 				</div>
 			</div>			
