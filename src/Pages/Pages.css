@@ -84,19 +84,21 @@ body { overflow-x:hidden; }
 }
 img { display:block; width:100%; height:auto; }
 
-.gridContainer { justify-content:center; align-items:center; height:25vw; width:25vw; margin:0 auto; display:grid; grid-template-columns:repeat(2, 1fr); grid-gap:15vw; }
-.containerR__image { position:relative; display:flex; flex-direction:column; align-items:start; justify-content:center; width:20vw; height:20vw; border-radius:50%; background-size:cover; transition: ease-in-out .3s; z-index:2; }
+.gridContainer { justify-content:center; align-items:center; height:auto; width:100%; margin:5vw auto; display:grid; grid-template-columns:repeat(2, 1fr); grid-gap:8vw; }
+.gridTileR { height:23vw; width:100%; display:flex; align-items:center; justify-content:center; padding-left:25vw; padding-right:1.5vw; border-bottom:dotted 5px var(--col1); border-right:dotted 5px var(--col1); border-top:dotted 5px var(--col1); background-color:var(--col0); }
+.containerR__image { position:relative; display:flex; flex-direction:column; align-items:start; justify-content:center; width:18vw; height:18vw; border-radius:50%; background-size:cover; transition: ease-in-out .3s; z-index:2; }
 .containerR__image:before { content:''; position:absolute; width:100%; height:100%; top:0; bottom:0; left:0; margin:auto; background:inherit; background-position:bottom; filter:blur(40px) saturate(0%); transform:scaleX(0.4); transition:ease-in-out .4s; border-radius:120px; transform-origin:right; opacity:0; z-index:-10; } 
 .containerR__info { background-color:rgba(255, 229, 236, 0.5); padding:0 1vw; position:relative; line-height:1.8; transition:ease-in-out .3s; opacity:0; justify-self:right; text-align:left; } 
 .containerR__location { transition-delay:0.15s; }
-.containerR__image:hover { border-radius:0; width:35vw; height:22vw; box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(9, 55, 53, 0.08), 0px 16px 24px rgba(9, 55, 53, 0.1), 0px 24px 32px rgba(9, 55, 53, 0.14); }
+.containerR__image:hover { border-radius:0; width:35vw; height:20vw; box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(9, 55, 53, 0.08), 0px 16px 24px rgba(9, 55, 53, 0.1), 0px 24px 32px rgba(9, 55, 53, 0.14); }
 .containerR__image:hover:before { width:100%; height:100%; opacity:0.18; filter:blur(10px) saturate(100%); transform:scale(2) translate3d(-18%, 0px, 0px); }
 .containerR__image:hover > .containerR__info { top:0; left:0; opacity:1; }
-.containerL__image { position:relative; display:flex; flex-direction:column; align-items:end; justify-content:center; width:20vw; height:20vw; border-radius:50%; background-size:cover; transition: ease-in-out .3s; z-index:2; }
+.gridTileL { height:23vw; width:100%; display:flex; align-items:center; justify-content:center; padding-left:25vw; padding-right:1.5vw; border-bottom:dotted 5px var(--col1); border-left:dotted 5px var(--col1); border-top:dotted 5px var(--col1); background-color:var(--col0); }
+.containerL__image { position:relative; display:flex; flex-direction:column; align-items:end; justify-content:center; width:18vw; height:18vw; border-radius:50%; background-size:cover; transition: ease-in-out .3s; z-index:2; }
 .containerL__image:before { content:''; position:absolute; width:100%; height:100%; top:0; bottom:0; right:0; margin:auto; background:inherit; background-position:bottom; filter:blur(40px) saturate(0%); transform:scaleX(0.4); transition:ease-in-out .4s; border-radius:120px; transform-origin:left; opacity:0; z-index:-10; } 
 .containerL__info { background-color:rgba(255, 229, 236, 0.5); padding:0 1vw; position:relative; line-height:1.8; transition:ease-in-out .3s; opacity:0; right:0; text-align:right; } 
 .containerL__location { transition-delay:0.15s; }
-.containerL__image:hover { border-radius:0; width:35vw; height:22vw; box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(9, 55, 53, 0.08), 0px 16px 24px rgba(9, 55, 53, 0.1), 0px 24px 32px rgba(9, 55, 53, 0.14); }
+.containerL__image:hover { border-radius:0; width:35vw; height:20vw; box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(9, 55, 53, 0.08), 0px 16px 24px rgba(9, 55, 53, 0.1), 0px 24px 32px rgba(9, 55, 53, 0.14); }
 .containerL__image:hover:before { width:100%; height:100%; opacity:0.18; filter:blur(10px) saturate(100%); transform:scale(2) translate3d(18%, 0px, 0px); }
 .containerL__image:hover > .containerL__info { opacity:1; right:0; }
 

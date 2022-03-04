@@ -62,22 +62,32 @@ const About = () => {
 				</div>
 			</div>			
 
-			<div class="gridContainer" style={{marginTop:'5vw'}}>
-                <div class="containerR__image" style={{backgroundImage:"url('./Images/About/cruise.jpg')"}}>
-                    <div class="containerR__info">I love travelling. This beautiful<br></br>picture is from a cruise trip in Italy.</div>
-                </div>
-                <div class="containerL__image" style={{backgroundImage:"url('./Images/About/meanddog2.png')"}}>
-                    <div class="containerL__info">Lolo is just over a year old. Here's<br></br>me on a hike with him!</div>
-                </div>
-            </div>
-            <div class="gridContainer" style={{marginBottom:'5vw'}}>
-                <div class="containerR__image" style={{backgroundImage:"url('./Images/About/food.jpg')"}}>
-                    <div class="containerR__info">FOOD! Not sure what I'd be doing in<br></br>my spare time if I didn't have food.</div>
-                </div>
-                <div class="containerL__image" style={{backgroundImage:"url('./Images/About/me6.png')"}}>
-                    <div class="containerL__info">Hanging out with friends! Here's a<br></br>picture from one of our date nights &lt;3</div>
-                </div>
-            </div>
+			<div style={{height:'auto', width:'auto', backgroundColor:'rgba(255, 229, 236, 0.2)'}}>
+				<div class="gridContainer" style={{marginTop:'5vw'}}>
+					<div class="gridTileR" style={{justifyContent:'justify', paddingLeft:'25vw', paddingRight:'1.5vw'}}>
+						<div class="containerR__image" style={{backgroundImage:"url('./Images/About/cruise.jpg')"}}>
+							<div class="containerR__info">I love travelling. This beautiful<br></br>picture is from a cruise trip in Italy.</div>
+						</div>
+					</div>
+					<div class="gridTileL" style={{justifyContent:'justify', paddingRight:'25vw', paddingLeft:'1.5vw'}}>
+						<div class="containerL__image" style={{backgroundImage:"url('./Images/About/meanddog2.png')"}}>
+							<div class="containerL__info">Lolo is just over a year old. Here's<br></br>me on a hike with him!</div>
+						</div>
+					</div>
+				</div>
+				<div class="gridContainer" style={{marginTop:'5vw'}}>
+					<div class="gridTileR" style={{justifyContent:'justify', paddingLeft:'25vw', paddingRight:'1.5vw'}}>
+						<div class="containerR__image" style={{backgroundImage:"url('./Images/About/food.jpg')"}}>
+							<div class="containerR__info">FOOD! Not sure what I'd be doing in<br></br>my spare time if I didn't have food.</div>
+						</div>
+					</div>
+					<div class="gridTileL" style={{justifyContent:'justify', paddingRight:'25vw', paddingLeft:'1.5vw'}}>
+						<div class="containerL__image" style={{backgroundImage:"url('./Images/About/me6.png')"}}>
+							<div class="containerL__info">Hanging out with friends! Here's a<br></br>picture from one of our date nights &lt;3</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<div class='homeContainer' style={{backgroundImage: `url("./Images/Home/background.png")`, backgroundAttachment:'fixed', backgroundSize:'100% 100%' }}>
                 <div className='headerContainer2'>
