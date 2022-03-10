@@ -12,7 +12,7 @@ function Popup(props) {
 	) : "";
 }
 
-const Card2 = ({ header, body, imgLink, date, github, devpost }) => {
+const Card2 = ({ header, body, imgLink, date, github }) => {
 	const [buttonPopup, setButtonPopup] = useState(false)
 	return (
 		<>
@@ -22,7 +22,7 @@ const Card2 = ({ header, body, imgLink, date, github, devpost }) => {
 				<div className="cardContainer">
 					<h1 className="cardHeader">{header} </h1>
 					<h4 className="cardBody">{body}</h4>
-					<button className="cardButton"><a href={github}>View Code</a></button>
+					<button className="cardButton"><a href={github} target="_blank">View Code</a></button>
 					<button className="cardButton" onClick={()=>setButtonPopup(true)}>View Demo</button>
 					<h3 className='cardDate'>{date}</h3>
 				</div>

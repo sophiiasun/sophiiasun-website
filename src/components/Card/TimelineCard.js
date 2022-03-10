@@ -1,10 +1,10 @@
 import React from 'react'
 import '../../components/Components.css'
 
-const TimelineCard = ({length, year, title, description}) => {
+const TimelineCard = ({length, year, title, description, animation}) => {
 	return (
 		<>
-            <div class="timeline">
+            <div class="timeline" data-aos={animation}>
                 <div class="icon"></div>
                 <div class="date-content">
                     <div class="date-outer">

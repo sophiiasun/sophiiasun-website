@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Nav, NavLink, Name, NavMenu, navStyles } from './NavbarElements';
+import { Nav, NavLink, Name, NavMenu, navStyles, NavButton, Resume } from './NavbarElements';
 import '../../components/Components.css'
 import logo from './logo.png';
 
@@ -29,6 +29,7 @@ const Navbar = () => {
 					<NavLink to='/Portfolio' activeStyle>Portfolio</NavLink>
 					<NavLink to='/Timeline' activeStyle>Timeline</NavLink>
 					{/* <NavLink to='/test' activeStyle>test</NavLink> */}
+					<Resume href="https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing" target="_blank">Resume</Resume>
 				</NavMenu>
 			</Nav>
 		</>

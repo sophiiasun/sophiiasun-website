@@ -31,7 +31,7 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   border: 0.12vw solid var(--col0); border-radius: 1.5vmin;  
   height: auto;
-  width: auto; 
+  width: 10vw; 
   margin: auto; 
   background-size: 100vw 100vw; 
   transition: 0.5s; 
@@ -63,3 +63,23 @@ export const NavMenu = styled.div`
   justify-content: end;
 `;
 
+export const Resume = styled.a`    
+  color: var(--col1); 
+  text-decoration: none; 
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2vh; 
+  padding:0.5vw 0.7vw;
+  cursor: pointer;
+  border: 0.12vw solid var(--col0); border-radius: 1.5vmin;  
+  height: auto;
+  width: auto; 
+  margin: auto; 
+  background-size: 100vw 100vw; 
+  transition: 0.5s; 
+  justify-content: center;  
+  text-transform:uppercase;
+  background:var(--col0);
+  &:hover { background-position:50vw 0; color:var(--col0); background:var(--col1) }
+`;
