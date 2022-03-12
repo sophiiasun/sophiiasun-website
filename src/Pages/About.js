@@ -41,28 +41,30 @@ const About = () => {
 				</div>
 			</div>
 
-			<div class='hobbiesContainer'>
-				<div class='hobbiesGrid'> 
-					<div class="gridContainer2">
-						<div class="header hobbiesTitle">My Hobbies</div>
-						<div class="hobbiesGrid2">
-							<button onClick = {() => setHobbieIndex(1)}><FontAwesomeIcon icon={faTv} className="icons icons2"/></button>
-							<button onClick = {() => setHobbieIndex(2)}><FontAwesomeIcon icon={faHeadphonesAlt} className="icons icons2"/></button>
-							<button onClick = {() => setHobbieIndex(3)}><FontAwesomeIcon icon={faGamepad} className="icons icons2"/></button>
-							<button onClick = {() => setHobbieIndex(4)}><FontAwesomeIcon icon={faCameraRetro} className="icons icons2"/></button>
+			<div style={{width:'100%', height:'50vw', marginTop:'6.5vw', display:'flex', alignItems:'center', backgroundImage:'url("./Images/Home/background.png")', backgroundAttachment:'fixed', backgroundSize:'100% 100%'}}>
+				<div class='hobbiesContainer'>
+					<div class='hobbiesGrid'> 
+						<div class="gridContainer2">
+							<div class="header hobbiesTitle">My Hobbies</div>
+							<div class="hobbiesGrid2">
+								<button onClick = {() => setHobbieIndex(1)}><FontAwesomeIcon icon={faTv} className="icons icons2"/></button>
+								<button onClick = {() => setHobbieIndex(2)}><FontAwesomeIcon icon={faHeadphonesAlt} className="icons icons2"/></button>
+								<button onClick = {() => setHobbieIndex(3)}><FontAwesomeIcon icon={faGamepad} className="icons icons2"/></button>
+								<button onClick = {() => setHobbieIndex(4)}><FontAwesomeIcon icon={faCameraRetro} className="icons icons2"/></button>
+							</div>
+							<div class='header hobbiesContent'>{hobbiesInfo[hobbieIndex]}</div>
 						</div>
-						<div class='header hobbiesContent'>{hobbiesInfo[hobbieIndex]}</div>
+						<div class="gridContainer2">
+							{/* <div class='hobbiesButton'><a href='https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing' target="_blank">View Resume</a></div> */}
+							<button class='hobbiesButton' onClick = {() => window.open('https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing', "_blank")}>Resume</button>
+							<div class="header hobbiesTitle">About Me</div>
+							<div class='header hobbiesContent'>{aboutme}</div>
+						</div>
 					</div>
-					<div class="gridContainer2">
-						{/* <div class='hobbiesButton'><a href='https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing' target="_blank">View Resume</a></div> */}
-						<button class='hobbiesButton' onClick = {() => window.open('https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing', "_blank")}>Resume</button>
-						<div class="header hobbiesTitle">About Me</div>
-						<div class='header hobbiesContent'>{aboutme}</div>
-					</div>
-				</div>
-			</div>			
+				</div>	
+			</div>		
 
-			<div style={{height:'auto', width:'auto', backgroundColor:'rgba(255, 229, 236, 0.2)'}}>
+			<div style={{height:'auto', width:'auto'}}>
 				<div class="gridContainer" style={{marginTop:'5vw'}}>
 					<div class="gridTileR" style={{justifyContent:'justify', paddingLeft:'25vw', paddingRight:'1.5vw'}}>
 						<div class="containerR__image" style={{backgroundImage:"url('./Images/About/cruise.jpg')"}}>
