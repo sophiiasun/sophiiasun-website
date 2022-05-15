@@ -123,7 +123,7 @@ const Timeline = () => {
 							length='Feb. 17'
 							year='2021'
 							title='Canadian Computing Contest'
-							description='My second attempt at this contest did not go nearly as smoothly as the first time. Because of my busy Junior year, I did not have much time to practise ahead of time. I scored a mere 34/75, which was rather dissapointing and discouraging.'
+							description='My second attempt at this contest did not go nearly as smoothly as the first time. Because of my busy Junior year, I did not have much time to practise. I scored a mere 34/75, which was rather disappointing and discouraging.'
 						/>
 						<TimelineCard 
 							animation='fade-right'
@@ -151,7 +151,7 @@ const Timeline = () => {
 							length='Sep. 22'
 							year='2021'
 							title='Hack the North'
-							description="I participated in the annual Hack the North (hackathon) that brings together hundreds of aspiring engineers. My team created a projects that combines many ideas into one platform. Although we did not qualify for any prizes, we have a great time exploring new softwares."
+							description="I participated in the annual Hack the North (hackathon) that brings together hundreds of aspiring engineers. My team created a project that combines many ideas into one platform. Although we did not qualify for any prizes, we have a great time exploring new softwares."
 						/>
 						<TimelineCard 
 							animation='fade-right'

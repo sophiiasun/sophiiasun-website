@@ -19,7 +19,7 @@ const Portfolio = () => {
 			/>
 			
 			<Card 
-				header='medicap'
+				header='medicapp'
 				body={Medicapp}
 				date='09/19/2021'
 				imgLink='./Images/Portfolio/MedicApp.jpg'
@@ -105,15 +105,15 @@ const Medicapp = `Medicapp is aimed to help medical professional to access patie
 face-recognition technology. User information is stored using an SQL database hosted by Microsoft Azure. Built 
 with Flask, NodeJS, Python, Tailwind, and Vanilla Javascript.`
 
-const Tetros = `Tetros is a recreation of the popular game Tetris by Thomas Wang and Sophia Sun. Our 
-version features all the traditional Tetris perks, such as T-spins, points system, 7-block rotations, and more!
-Created using basic Vanilla Javascript, CSS, and HTML.`
+const Tetros = `Tetros is a recreation of the popular game Tetris. Our version features all the traditional 
+Tetris perks, such as T-spins, points system, 7-block rotations, and more! Created using basic Vanilla 
+Javascript, CSS, and HTML.`
 
 const TicTacToe = `I created two renditions of the traditional Tic Tac Toe, where you can either play with a 
 friend or play against a bot. The bot is programmed with Minimax algorithm, so it will never lose. Built with 
 Vanilla javascript, html, and css.`
 
-const Minesweeper = `Minesweeper game created using HTML, Javascript, and CSS. Functions similar 
+const Minesweeper = `Minesweeper game created using HTML, Javascript, and CSS. Functions are similar 
 to that of traditional minesweeper. Left click to expand a tile and right click to mark a tile. Revealed tiles 
 represent the number of adjacent (including diagonals) mines, so make sure your brain is on!`
 

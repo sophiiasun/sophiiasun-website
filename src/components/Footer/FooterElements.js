@@ -8,7 +8,7 @@ export const Foot = styled.footer`
   font-size:1.5rem; 
   bottom:0;
   border-top:0.15vw solid var(--col2);
-  margin-top:50px;
+  // margin-top:50px;
   background-color:rgba(255, 229, 236, 1);
   align-items:center;
   z-index:10;
