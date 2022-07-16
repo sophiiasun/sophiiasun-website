@@ -26,7 +26,6 @@ const Timeline = () => {
 				<img src='./Images/Timeline/pic2.png' class='sideImage'></img>
 				<img src='./Images/Timeline/dog2.png' class='sideImage'></img>
 				<img src='./Images/Timeline/cake2.png' class='sideImage'></img>
-				<img src='./Images/Timeline/cake2.png' class='sideImage'></img>
 				<img src='./Images/Timeline/me5.png' class='sideImage'></img>
 				<img src='./Images/Timeline/tree.png' class='sideImage'></img>
 				<img src='./Images/Timeline/me4.png' class='sideImage'></img>
@@ -159,6 +158,20 @@ const Timeline = () => {
 							year='2022'
 							title='My Personal Website'
 							description="After a few months of AFK due to busy schoolwork, I finally started developing my personal website using React App. What you're seeing now is just the beginning as it's still under renovation, but hopefully I can create a website that stores my progress and memories :)"
+						/>
+						<TimelineCard 
+							animation='fade-left'
+							length='Apr. 19'
+							year='2022'
+							title='Waterloo SE Offer'
+							description="I received my Waterloo Software Engineering offer!! Although I didn't get it first round (back in March), I'm happy that I was able to get it second round since I had requested for early consideration, as my UBC offer expires on May 1st. Nevertheless, huge milestone!!"
+						/>
+						<TimelineCard 
+							animation='fade-right'
+							length='May 11'
+							year='2022'
+							title='Waterloo CS Offer'
+							description="After several months of waiting, I finally received my Waterloo Computer Science offers! Not only that, but also my CS/BBA offer. Up until this point, I thought that CS/BBA would be my top choice, but now I think I might be going into SE... I still have time to decide though :)"
 						/>
 				</div>
 			</div>

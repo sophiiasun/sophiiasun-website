@@ -118,3 +118,14 @@ body{position:relative;}
 .hobbiesContent { margin-top:2vw; text-align:justify; text-justify:inter-word; content:attr(data-text); font-size:1.2vw; color:var(--col1); font-weight:1; }
 .icons2 { margin:0 auto; color:var(--col1) }
 .icons2:hover { cursor:pointer; color:var(--col0); }
+
+html, body{
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+  }
+  #particles-js{
+    width: 100%;
+    height: 100%;
+    background: #111111;
+  }

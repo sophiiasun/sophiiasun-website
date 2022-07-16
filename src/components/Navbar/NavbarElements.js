@@ -72,7 +72,7 @@ export const Resume = styled.a`
   font-size: 2vh; 
   padding:0.5vw 0.7vw;
   cursor: pointer;
-  border: 0.12vw solid var(--col0); border-radius: 1.5vmin;  
+  border: 0.12vw solid var(--col0); border-radius: 0.75vmin;  
   height: auto;
   width: auto; 
   margin: auto; 
