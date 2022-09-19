@@ -18,6 +18,7 @@ export const Nav = styled.nav`
   top:0;
   z-index:1000;
   border-bottom: 0.15vw solid var(--col2);
+  &:hover { transition:0.5s ease; background-color:var(--col1) }
 `;
 
 export const NavLink = styled(Link)`
@@ -64,7 +65,7 @@ export const NavMenu = styled.div`
 `;
 
 export const Resume = styled.a`    
-  color: var(--col1); 
+  color: var(--col0); 
   text-decoration: none; 
   display: flex;
   align-items: center;
@@ -72,7 +73,7 @@ export const Resume = styled.a`
   font-size: 2vh; 
   padding:0.5vw 0.7vw;
   cursor: pointer;
-  border: 0.12vw solid var(--col0); border-radius: 0.75vmin;  
+  border: 0.12vw solid var(--col2); border-radius: 0.75vmin;  
   height: auto;
   width: auto; 
   margin: auto; 
@@ -80,6 +81,5 @@ export const Resume = styled.a`
   transition: 0.5s; 
   justify-content: center;  
   text-transform:uppercase;
-  background:var(--col0);
-  &:hover { background-position:50vw 0; color:var(--col0); background:var(--col1) }
+  &:hover { background-position:50vw 0; color:var(--col0); background:var(--col1);}
 `;

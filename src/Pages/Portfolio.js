@@ -5,6 +5,7 @@ import ParticlesBg from 'particles-bg'
 import Card from '../components/Card/Card'
 import Card2 from '../components/Card/Card2'
 import Card3 from '../components/Card/Card3'
+import particlesJS from '../components/particles'
 
 const Portfolio = () => {
 	return (

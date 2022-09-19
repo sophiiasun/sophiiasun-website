@@ -81,3 +81,5 @@ img { object-fit:cover; }
 .flipCard { height:40vw; width:18vw; border:solid white; }
 .flipCardImage { height:40vw; width:18vw; border-radius:3vw; border:solid var(--col1); margin:0 2vw; }
 .flipCardImage:hover { cursor:pointer; }
+
+#particles-js{ width:100%; height:100%; background:#111111; }
