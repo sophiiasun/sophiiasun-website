@@ -14,11 +14,7 @@ const About = () => {
 		"When I was young, my dad bought this big chunky fancy camera to take pictures for our family when we went on vacation. That camera has since retired, but I've picked up the hobby of taking pictures wherever I go. I think it's a great way to document my life for future me to look back on. I've plastered a myriad of pictures that I've taken on my website, and hopefully that will inspire you to take pictures of yourself too! (P.S. I take most pictures from my iPhone)" ]
 	const [hobbieIndex, setHobbieIndex] = useState(0)
 	
-	const aboutme = `Hey! My name is Sophia Sun and I am currently a grade 12 student enrolled in the International Baccalaureate
-					 Program at Milliken Mills High School. I was born in China, but was immigrated to Canada when I was nearly three
-					 years old! High school graduation is just around the corner, and I think my biggest wish is that I don't lose 
-					 connections with my current friends. I'm not sure which university is my top choice yet, but I hope to meet 
-					 more and more people wherever I end up going!`
+	const aboutme = `Hey! My name is Sophia Sun and I am a Software Engineering student at the University of Waterloo. I'm currently seeking internship opportunities for Summer 2023! FINISH THIS LATER LOL`
 
 	return (
 		<>
@@ -28,7 +24,7 @@ const About = () => {
 			</div>
 
 			<div>
-				<div class='homeContainer' style={{height:'auto', marginTop:'5vw'}}>
+				<div class='homeContainer' style={{height:'auto', marginTop:'10vw'}}>
 					<div class='header' style={{color:'var(--col1)', zIndex:'1000', display:'flex', marginBottom:'2vw'}}>Everything begins with a thought, and thoughts are turned into plans, and plans into reality.</div>
 					<div class="wrapper" style={{marginTop:'5vw'}}>
 						<ul class="dynamic-txts">

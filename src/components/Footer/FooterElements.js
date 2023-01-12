@@ -18,6 +18,6 @@ export const FootMenu = styled.div`
   text-align:center; 
   font-weight:bold; 
   width:100%; 
-  // height:auto; 
+  // height:auto;   
   justify-content:center;
 `;
