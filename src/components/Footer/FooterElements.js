@@ -3,15 +3,13 @@ import { makeStyles } from '@mui/styles'
 import { NavLink as Link } from 'react-router-dom';
 
 export const Foot = styled.footer`
-  height:8vw; width:100%;
+  height:80px; width:100%;
   justify-content:center; 
-  font-size:1.5rem; 
+  font-size:1rem; 
   bottom:0;
   border-top:0.15vw solid var(--col2);
-  // margin-top:50px;
   background-color:rgba(255, 229, 236, 1);
   align-items:center;
-  z-index:10;
 `;
 
 export const FootMenu = styled.div`
@@ -20,7 +18,6 @@ export const FootMenu = styled.div`
   text-align:center; 
   font-weight:bold; 
   width:100%; 
-  height:auto; 
+  // height:auto; 
   justify-content:center;
-  margin-top:1.2vw;
 `;

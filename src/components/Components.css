@@ -17,14 +17,14 @@ img { object-fit:cover; }
 .close-btn { align-items:center; justify-content:center; letter-spacing:0.1vw; text-transform:uppercase; text-decoration:none; padding:0.2vw 0.3vw; height:auto; width:auto; font-size:0.5vw; color:var(--col1); border:0.1vw solid var(--col1);border-radius:1.5vmin; background-size:100vw 100vw; transition:0.5s; }
 .close-btn:hover { color:var(--col0); background:var(--col1); background-position:50vw 0; }
 
-.container1 { justify-content:center; display:flex; align-items:center; margin:1vw 0; }
+.container1 { justify-content:center; display:flex; align-items:center; margin: 10px 0; }
 .header { font-size:2vw; font-weight:bold; color:var(--col0) }
-.icons{ color:var(--col0); font-size:5vw; transition:0.5s; align-self:bottom;  }
+.icons{ color:var(--col0); font-size:3rem; transition:0.5s;  }
 .icons:hover { color:var(--col6); cursor:pointer; }
 #discord:hover ~ .discUser { color:var(--col6); }
-.discUser { margin-top:1.1vw; font-size:1.5vw; color:transparent; height:auto; width:auto; position:absolute; right:6%; transition:0.5s; }
+.discUser { margin-top:1.1vw; font-size:1.5rem; color:transparent; height:auto; width:auto; position:absolute; right:6%; transition:0.5s; }
 #email:hover ~ .email { color:var(--col6); }
-.email { margin-top:1.1vw; font-size:1.5vw; color:transparent; height:auto; width:auto; position:absolute; right:2.7%; transition:0.5s; }
+.email { margin-top:1.1vw; font-size:1.5rem; color:transparent; height:auto; width:auto; position:absolute; right:4%; transition:0.5s; }
 
 .timelineContainer { justify-content:center; display:flex; align-items:center; padding:0 19vw }
 .main-timeline { position:relative }
