@@ -29,7 +29,7 @@ const Navbar = () => {
 					<NavLink to='/Portfolio' activeStyle>Portfolio</NavLink>
 					<NavLink to='/Timeline' activeStyle>Timeline</NavLink>
 					{/* <NavLink to='/test' activeStyle>test</NavLink> */}
-					<Resume href="https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing" target="_blank">Resume</Resume>
+					<Resume href="https://docs.google.com/document/d/198Oz4MNKCiiBoXxQ2upF-lyI5J8inMlG5Ue4pyrW7rM/edit?usp=sharing" target="_blank">Resume</Resume>
 				</NavMenu>
 			</Nav>
 		</>

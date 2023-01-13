@@ -63,7 +63,7 @@ const Timeline = () => {
 				<div class='main-timeline' style={{marginTop:'50px'}}>
 						<TimelineCard 
 							animation='fade-left'
-							length='July 4,'
+							length='July 4'
 							year='2004'
 							title='I was born!'
 							description='I was born on July 4th, 2004 at 1:45 PM in a hospital in Beijing, China. My family immigrated to Canada when I was around 3 years old. We settled in Toronto until I finished preschool before moving to Markham, where I currently live!'
@@ -73,7 +73,7 @@ const Timeline = () => {
 							length='8 years'
 							year='2011'
 							title='Elementary School'
-							description='After leaving kindergarten from Mount Joy Public School, I attended Sam Chapman Public School from grades 1-3 until I transferred to Donald Cousens Public School for the Gifted Program. I graduated in 2019 with the French award '
+							description='After leaving kindergarten from Mount Joy Public School, I attended Sam Chapman Public School from grades 1-3 until I transferred to Donald Cousens Public School for the Gifted Program. I graduated in 2019 with the French award, ready to start fresh in a new stage of life.'
 						/>
 						<TimelineCard 
 							animation='fade-left'
@@ -172,6 +172,20 @@ const Timeline = () => {
 							year='2022'
 							title='Waterloo CS Offer'
 							description="After several months of waiting, I finally received my Waterloo Computer Science offers! Not only that, but also my CS/BBA offer. Up until this point, I thought that CS/BBA would be my top choice, but now I think I might be going into SE... I still have time to decide though :)"
+						/>
+						<TimelineCard 
+							animation='fade-left'
+							length='Sep. 9'
+							year='2022'
+							title='First day at Waterloo'
+							description="My first day at the University of Waterloo was nothing short of pure excitement and change. I spent the entire week of orientation running around getting to know the campus and meeting new people. I'd fanticized of this the last 4 years, and it was finally a dream come true."
+						/>
+						<TimelineCard 
+							animation='fade-right'
+							length='Sep. 16-18'
+							year='2022'
+							title='First day at Waterloo'
+							description="My first day at the University of Waterloo was nothing short of pure excitement and change. I spent the entire week of orientation running around getting to know the campus and meeting new people. I'd fanticized of this the last 4 years, and it was finally a dream come true."
 						/>
 				</div>
 			</div>

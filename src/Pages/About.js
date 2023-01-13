@@ -14,7 +14,7 @@ const About = () => {
 		"When I was young, my dad bought this big chunky fancy camera to take pictures for our family when we went on vacation. That camera has since retired, but I've picked up the hobby of taking pictures wherever I go. I think it's a great way to document my life for future me to look back on. I've plastered a myriad of pictures that I've taken on my website, and hopefully that will inspire you to take pictures of yourself too! (P.S. I take most pictures from my iPhone)" ]
 	const [hobbieIndex, setHobbieIndex] = useState(0)
 	
-	const aboutme = `Hey! My name is Sophia Sun and I am a Software Engineering student at the University of Waterloo. I'm currently seeking internship opportunities for Summer 2023! FINISH THIS LATER LOL`
+	const aboutme = `Hey! My name is Sophia Sun and I am a Software Engineering student at the University of Waterloo. I'm currently seeking internship opportunities for Summer 2023! Feel free to stroll around my site and explore :)`
 
 	return (
 		<>
@@ -52,7 +52,7 @@ const About = () => {
 						</div>
 						<div class="gridContainer2">
 							{/* <div class='hobbiesButton'><a href='https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing' target="_blank">View Resume</a></div> */}
-							<button class='hobbiesButton' onClick = {() => window.open('https://drive.google.com/file/d/1Ju39qpKBPSmEq_Fqz-liUgqorie4ktcS/view?usp=sharing', "_blank")}>Resume</button>
+							<button class='hobbiesButton' onClick = {() => window.open('https://docs.google.com/document/d/198Oz4MNKCiiBoXxQ2upF-lyI5J8inMlG5Ue4pyrW7rM/edit?usp=sharing', "_blank")}>Resume</button>
 							<div class="header hobbiesTitle">About Me</div>
 							<div class='header hobbiesContent'>{aboutme}</div>
 						</div>
